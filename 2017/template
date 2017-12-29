@@ -1,10 +1,10 @@
 #!/usr/bin/python
-
 import sys
 import numpy as np
 import itertools as it
+import operator as op
 import math
-
+from functools import reduce
 
 def parseIn(i=[]):
 	for line in sys.stdin:
